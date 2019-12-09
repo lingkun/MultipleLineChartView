@@ -1,0 +1,16 @@
+PODS:
+  - MultipleLineChartView (1.4.0)
+
+DEPENDENCIES:
+  - MultipleLineChartView (from `../`)
+
+EXTERNAL SOURCES:
+  MultipleLineChartView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MultipleLineChartView: 82fbc06bf7b4bab054dfd6bc0607b5e4f90ab87c
+
+PODFILE CHECKSUM: a21d5704931e98d5ac9d40a7c9059f360aeefe5d
+
+COCOAPODS: 1.8.3
