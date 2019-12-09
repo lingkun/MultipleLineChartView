@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = lingkun;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 87S9PN2Y6W;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -494,6 +497,7 @@
 			baseConfigurationReference = 742C55774D3ED7FF13CAEE10 /* Pods-MultipleLineChartView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 87S9PN2Y6W;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MultipleLineChartView/MultipleLineChartView-Prefix.pch";
 				INFOPLIST_FILE = "MultipleLineChartView/MultipleLineChartView-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = 06DD72738A0DD201ED7B5302 /* Pods-MultipleLineChartView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 87S9PN2Y6W;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MultipleLineChartView/MultipleLineChartView-Prefix.pch";
 				INFOPLIST_FILE = "MultipleLineChartView/MultipleLineChartView-Info.plist";
