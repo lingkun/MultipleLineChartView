@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'MultipleLineChartView_Example' do
+  pod 'MultipleLineChartView', :path => '../'
+
+  target 'MultipleLineChartView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
