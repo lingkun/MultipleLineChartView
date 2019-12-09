@@ -22,7 +22,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    
+    self.chartView.frame =CGRectMake(100, 200, 300, 200);
     
 }
 - (LHYChartView *)chartView{
