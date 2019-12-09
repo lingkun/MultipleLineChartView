@@ -1,5 +1,5 @@
 PODS:
-  - MultipleLineChartView (1.2.0)
+  - MultipleLineChartView (1.3.0)
 
 DEPENDENCIES:
   - MultipleLineChartView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MultipleLineChartView: bf9f98b0c6831a630bb47ea1977f4f3626020af5
+  MultipleLineChartView: 3433b19e5f2a38506209b3dce6043fb7990e5381
 
 PODFILE CHECKSUM: a21d5704931e98d5ac9d40a7c9059f360aeefe5d
 

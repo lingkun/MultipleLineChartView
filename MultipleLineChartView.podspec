@@ -1,13 +1,13 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MultipleLineChartView'
-  s.version          = '1.2.0'
-  s.summary          = 'A multiple line chart view MultipleLineChartView.'
+  s.version          = '1.3.0'
+  s.summary          = 'A multiple line MultipleLineChartView.'
 
 
 
   s.description      = <<-DESC
-                     "双边多条曲线图。根据GitHub上其他大师的开源类封装，再次表示感谢！"
+                     'A multiple line chart view MultipleLineChartView.'
                        DESC
 
   s.homepage         = 'https://github.com/lingkun/MultipleLineChartView'
