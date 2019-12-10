@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MultipleLineChartView'
-  s.version          = '1.3.0'
+  s.version          = '1.6.0'
   s.summary          = 'A multiple line MultipleLineChartView.'
 
 
@@ -21,9 +21,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'MultipleLineChartView/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'MultipleLineChartView' => ['MultipleLineChartView/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'MultipleLineChartView' => ['MultipleLineChartView/Assets/*']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'UIKit'

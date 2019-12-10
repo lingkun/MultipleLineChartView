@@ -501,9 +501,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MultipleLineChartView/MultipleLineChartView-Prefix.pch";
 				INFOPLIST_FILE = "MultipleLineChartView/MultipleLineChartView-Info.plist";
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.6;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qlink.multiplelinechartview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -519,9 +519,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MultipleLineChartView/MultipleLineChartView-Prefix.pch";
 				INFOPLIST_FILE = "MultipleLineChartView/MultipleLineChartView-Info.plist";
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.6;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qlink.multiplelinechartview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;

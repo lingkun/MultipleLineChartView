@@ -11,6 +11,9 @@
 #import "YJYTouchScroll.h"
 #import "YJYLinesCell.h"
 #import "LHYLinesPaoPaoView.h"
+
+#import "NSBundle+SubBundle.h"
+
 #define btnW 12
 #define kPaoPaoWidth 75.f
 #define chartViewHeight self.bounds.size.height - 30
@@ -223,7 +226,8 @@
         collectionViewLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
         _xAxiCollectionView = [[YJYTouchCollectionView alloc]initWithFrame:CGRectMake(CGRectGetMinX(_chartScrollView.frame), CGRectGetMaxY(_chartScrollView.frame) + 10, CGRectGetWidth(_chartScrollView.frame) + CGRectGetWidth(_chartScrollView.frame) / (_xRow - 1), 20) collectionViewLayout:collectionViewLayout];
         _xAxiCollectionView.backgroundColor = [UIColor clearColor];
-        [_xAxiCollectionView registerNib:[UINib nibWithNibName:@"YJYLinesCell" bundle:nil] forCellWithReuseIdentifier:@"YJYLinesCell"];
+        
+        [_xAxiCollectionView registerNib:[UINib nibWithNibName:@"YJYLinesCell" bundle:[NSBundle lk_subBundleWithBundleName:@"MultipleLineChartView" targetClass:[self class]]] forCellWithReuseIdentifier:@"YJYLinesCell"];
         _xAxiCollectionView.delegate = self;
         _xAxiCollectionView.dataSource = self;
         _xAxiCollectionView.bounces = NO;
