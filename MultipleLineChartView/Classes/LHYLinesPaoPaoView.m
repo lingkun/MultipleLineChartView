@@ -225,7 +225,7 @@
         CGRect frame = self.listTb.frame;
         frame.origin.y = 5;
         [self.listTb setFrame:frame];
-        YYLog(@"%0.2f",self.frame.origin.y);
+        NSLog(@"%0.2f",self.frame.origin.y);
 //        [self.listTb mas_makeConstraints:^(MASConstraintMaker *make) {
 //            make.top.mas_equalTo(5);
 //        }];
